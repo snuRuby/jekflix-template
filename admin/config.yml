@@ -33,6 +33,9 @@ collections:
         widget: "list"
         required: false
         fields:
+          - label: "Product Name"
+            name: "name"
+            widget: "string"
           - label: "Brand"
             name: "brand"
             widget: "string"
