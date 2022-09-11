@@ -7,12 +7,11 @@
       {% else %}
         <img class="img-rounded" src="/assets/img/user.jpg" alt="{{ author.display_name }}">
       {% endif %}
-      <p class="def">{{ site.translations.text.author | default: "Author" }}</p>
       <h3 class="name">
         <a href="{{ author.url }}">{{ author.display_name }}</a>
       </h3>
       <p class="desc">{{ author.bio }}</p>
-      <p>
+      <!-- <p>
         {% if author.github_username %}
           <a href="https://github.com/{{ author.github_username }}" title="Github">
             <svg><use xlink:href="#icon-github"></use></svg>
@@ -43,7 +42,7 @@
             <svg><use xlink:href="#icon-linkedin"></use></svg>
           </a>
         {% endif %}
-      </p>
+      </p> -->
     </div>
   </section>
 

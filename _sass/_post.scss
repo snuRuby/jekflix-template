@@ -68,15 +68,14 @@
   iframe {
     @include center(rem(800px));
     @include mainFont(400);
-    font-size: rem(17px);
-    line-height: rem(30px);
-    letter-spacing: 0.025rem;
+    font-size: rem(15px);
+    line-height: rem(20px);
     padding: 0 rem(20px);
     margin: rem(20px) auto 0;
 
     @include media(">=sm") {
-      font-size: rem(20px);
-      line-height: rem(40px);
+      font-size: rem(15px);
+      line-height: rem(24px);
       margin: rem(29px) auto 0;
     }
   }
@@ -96,7 +95,7 @@
 
   p.post-subtitle {
     color: darken($lightGray, 30%);
-    font-size: rem(17px);
+    font-size: rem(14px);
     margin: rem(10px) auto;
     line-height: 1.6;
 
@@ -205,25 +204,25 @@
     font-size: rem(36px);
     line-height: 1.4;
     @include media(">=sm") {
-      font-size: rem(50px);
+      font-size: rem(28px);
     }
   }
 
   h2 {
-    font-size: rem(28px);
+    font-size: rem(24px);
     line-height: 1.4;
 
     @include media(">=sm") {
-      font-size: rem(37px);
+      font-size: rem(28px);
     }
   }
 
   h3 {
-    font-size: rem(22px);
+    font-size: rem(20px);
     line-height: 1.4;
 
     @include media(">=sm") {
-      font-size: rem(27px);
+      font-size: rem(24px);
     }
   }
   ul,
@@ -253,11 +252,11 @@
     }
 
     p {
-      font-size: rem(17px);
+      font-size: rem(12px);
       color: rgba(0, 0, 0, 0.6);
       margin: 0;
       @include media(">=sm") {
-        font-size: rem(20px);
+        font-size: rem(15px);
       }
     }
   }
