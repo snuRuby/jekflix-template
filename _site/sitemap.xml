@@ -2,14 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/404.html</loc>
-            
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            
-        </url>
-    
-        <url>
             <loc>/about/</loc>
             
                 <changefreq>monthly</changefreq>
@@ -58,14 +50,6 @@
         </url>
     
         <url>
-            <loc>/feed.xml</loc>
-            
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            
-        </url>
-    
-        <url>
             <loc>/</loc>
             
                 <changefreq>monthly</changefreq>
@@ -75,14 +59,6 @@
     
         <url>
             <loc>/category/life/</loc>
-            
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            
-        </url>
-    
-        <url>
-            <loc>/contact/message-sent/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -115,14 +91,6 @@
     
         <url>
             <loc>/sitemap.xml</loc>
-            
-                <changefreq>monthly</changefreq>
-                <priority>0.5</priority>
-            
-        </url>
-    
-        <url>
-            <loc>/staff/</loc>
             
                 <changefreq>monthly</changefreq>
                 <priority>0.5</priority>
@@ -177,124 +145,20 @@
             
         </url>
     
-    
         <url>
-            <loc>/welcome-to-the-desert-of-the-real/view-all/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-17</lastmod>
+            <loc>/photos/%EC%B2%B4%EB%A6%AC%EC%83%89-%EC%9B%90%EB%AA%A9%EA%B3%BC-%EB%94%B0%EB%9C%BB%ED%95%9C-%EB%8A%90%EB%82%8C%EC%9D%98-%EB%B8%94%EB%9E%AD%ED%82%B7%EC%9D%B4-%EC%96%B4%EC%9A%B0%EB%9F%AC%EC%A7%84-%ED%8F%AC%EA%B7%BC%ED%95%9C-%EC%A7%91/</loc>
+            
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            
         </url>
     
-        <url>
-            <loc>/welcome-to-the-desert-of-the-real/2/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2019-05-17</lastmod>
-        </url>
     
         <url>
-            <loc>/welcome-to-the-desert-of-the-real/</loc>
+            <loc>/%EA%B9%80%EC%B0%BD%EC%97%B4-%ED%99%94%EB%B0%B1-%EB%8B%A4%ED%81%90%EB%A9%98%ED%84%B0%EB%A6%AC%EA%B0%80-%EC%98%A4%EB%8A%94-9%EC%9B%94-%EA%B0%9C%EB%B4%89%ED%95%A9%EB%8B%88%EB%8B%A4/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>2019-05-17</lastmod>
-        </url>
-    
-        <url>
-            <loc>/why-books-should-be-your-priority/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-11-22</lastmod>
-        </url>
-    
-        <url>
-            <loc>/the-quick-brown-fox-jumps-over-a-lazy-dog/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-10-09</lastmod>
-        </url>
-    
-        <url>
-            <loc>/a-wonderful-serenity-has-taken-possession-of-my-entire-soul/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-07-20</lastmod>
-        </url>
-    
-        <url>
-            <loc>/candy-candies-candy/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-04-21</lastmod>
-        </url>
-    
-        <url>
-            <loc>/trust-me-it-will-work/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-03-12</lastmod>
-        </url>
-    
-        <url>
-            <loc>/how-to-turn-your-dog-into-a-jedi-master/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2018-02-03</lastmod>
-        </url>
-    
-        <url>
-            <loc>/let-flexbox-work-for-you-or-perish/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-08-15</lastmod>
-        </url>
-    
-        <url>
-            <loc>/a-star-has-fallen-from-the-sky-and-the-cat-ate-it/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-08-08</lastmod>
-        </url>
-    
-        <url>
-            <loc>/smoke-alert/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-07-29</lastmod>
-        </url>
-    
-        <url>
-            <loc>/do-you-believe-that-a-spider-can-dance/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-06-08</lastmod>
-        </url>
-    
-        <url>
-            <loc>/a-cook-cries-in-the-rain-at-night/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-06-04</lastmod>
-        </url>
-    
-        <url>
-            <loc>/grab-your-band-and-get-out/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2017-05-11</lastmod>
-        </url>
-    
-        <url>
-            <loc>/passion-is-dangerous-go-for-it/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2015-09-06</lastmod>
-        </url>
-    
-        <url>
-            <loc>/birds-can-fly-but-this-you-knew-already/</loc>
-            <changefreq>weekly</changefreq>
-            <priority>0.8</priority>
-            <lastmod>2010-09-10</lastmod>
+            <lastmod>2022-09-08</lastmod>
         </url>
     
     
