@@ -76,7 +76,7 @@
 
       .cover {
         .new-post-tag {
-          background-color: #fff;
+          background-color: $themeColor;
         }
 
         .read-icon {
@@ -148,7 +148,7 @@
 
       &:hover {
         color: $primaryDark;
-        background: $accentLight;
+        background: $themeColor;
         border-color: $primaryDark;
       }
     }
@@ -175,7 +175,7 @@
         text-transform: uppercase;
         display: inline-block;
         background: $themeColor;
-        color: $primaryDark;
+        color: $accentLight;
         font-size: rem(13px);
         font-weight: 700;
         line-height: rem(24px);

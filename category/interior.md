@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Interior
-slug: "{{slug}}"
-description: ""
+slug: interior
+description: "Category for interior"
 ---
