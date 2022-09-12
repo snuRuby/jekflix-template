@@ -1,16 +1,18 @@
-name: Opaque 
+formspree_form_id: rin@opaque.ooo
+name: Opaque
 title: opq | 감각적인 라이프스타일을 위해 최신의 리빙정보를 찾아보세요!
 description: 오파크는 감각적인 라이프스타일과 리빙정보를 모아두고 있습니다. 언제든 최신 정보를 찾아볼 수 있습니다!
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
   - opaque
   - 오파크
   - 디자인 인테리어
   - 웹매거진
+  - 인테리어
+  - opq
+  - 리빙
+  - 프리미엄인테리어
+  - 감각적인
+  - 최신리빙
 show_hero: true
 menu:
   - title: Home
@@ -22,8 +24,4 @@ menu:
   - title: Feed
     url: /feed
 email: hola@opaque.ooo
-# See: https://disqus.com/
 disqus_username: rinopaque
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: rin@opaque.ooo
