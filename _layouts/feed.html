@@ -1,0 +1,110 @@
+---
+layout: page
+---
+<style type="text/css" media="screen">
+  .container {
+    margin: 0px auto;
+    max-width: 600px;
+  }
+</style>
+
+{% assign photos = site.data.photos %}
+
+<div class="photos-container">
+    {% if photos %}
+    <p>photo is generated</p>
+    {% else %}
+    <p>No photos in site!</p>
+    {% endif %}
+  {% for photo in site.photos %}
+  <p>그냥 photos로 하면 안보이려나?</p>
+  <p>
+  {{ photo.title }}</p>
+  <!-- <article class="box-item">
+    <div class="box-body">
+        <a class="cover" href="{{ photo.url | prepend: site.baseurl }}">
+            {% include loader.html %}
+            {% if photo.image %}
+                <img src="/assets/img/placeholder.png" width="100%" data-url="{{ photo.image }}" class="preload">
+                <noscript>
+                    <img src="{{ photo.image }}" width="100%">
+                </noscript>
+            {% else %}
+                <img src="/assets/img/placeholder.png" width="100%" data-url="/assets/img/off.jpg" class="preload">
+                <noscript>
+                    <img src="/assets/img/off.jpg" width="100%">
+                </noscript>
+            {% endif %}
+            {% include new-photo-tag.html date=photo.date %}
+            {% include read-icon.html %}
+        </a>
+        <div class="box-info">
+            <a class="photo-link" href="{{ photo.url | prepend: site.baseurl }}">
+                <h2 class="photo-title">
+                    {{ photo.title }}
+                </h2>
+            </a>
+            <a class="photo-link" href="{{ photo.url | prepend: site.baseurl }}">
+                <p class="description">{{ photo.description }}</p>
+            </a>
+            <div class="tags">
+                {% for tag in photo.tags %}
+                    {% if tag != "" %}
+                        <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">#{{ tag }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</article> -->
+{% endfor %}
+
+</div>
+
+<script type="text/javascript">
+function adjust_textarea(h) {
+    h.style.height = "200px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script>
+
+<script src="https://unpkg.com/vue@2.4.2"></script>
+<script src="https://unpkg.com/vee-validate@2.0.0-rc.8"></script>
+<script type="text/javascript">
+Vue.use(VeeValidate);
+
+const dictionary = {
+  {{ site.translations.contact.errors.locale | default: 'en' }}: {
+    custom: {
+      name: {
+        required: "{{ site.translations.contact.errors.empty_name | default: 'Name is required' }}"
+      },
+      email: {
+        required: "{{ site.translations.contact.errors.empty_email | default: 'Email is required' }}",
+        email: "{{ site.translations.contact.errors.invalid_email | default: 'Email is invalid' }}"
+      },
+      message: {
+        required: "{{ site.translations.contact.errors.empty_message | default: 'Message is required' }}"
+      }
+    }
+  }
+};
+
+VeeValidate.Validator.updateDictionary(dictionary);
+VeeValidate.Validator.setLocale("{{ site.translations.contact.errors.locale | default: 'en' }}");
+
+new Vue({
+  el: '#form',
+  delimiters: ['${', '}'],
+  methods: {
+    validateBeforeSubmit: function () {
+      this.$validator.validateAll();
+      if (!this.errors.any()) {
+        this.$refs.contact.submit();
+      }
+    }
+  }
+});
+</script>
+
+

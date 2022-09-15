@@ -15,7 +15,7 @@ collections:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
-        default: "interior_photos"
+        default: "feed"
       - label: "Title"
         name: "title"
         widget: "string"

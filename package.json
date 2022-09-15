@@ -1,7 +1,7 @@
 {
   "name": "jekflix-template",
   "version": "3.1.1",
-  "description": "A Jekyll theme inspired by Netflix",
+  "description": "오파크는 감각적인 라이프스타일과 리빙정보를 모아두고 있습니다. 언제든 최신 정보를 찾아볼 수 있습니다!",
   "main": "gulpfile.js",
   "homepage": "https://github.com/thiagorossener/jekflix-template.git#readme",
   "repository": {
