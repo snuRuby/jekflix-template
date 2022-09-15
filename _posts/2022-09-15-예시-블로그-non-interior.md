@@ -1,5 +1,5 @@
 ---
-date: 2022-09-15 15:03:47
+date: 2022-09-14 15:03:47
 layout: post
 title: 예시 블로그 (non interior)
 subtitle: 블로그 블로그 블로그 블로그
