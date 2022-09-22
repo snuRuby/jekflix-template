@@ -15,10 +15,17 @@ $breakpoints: (
 
 // Margins
 $rowMargin: 10px;
+$photoRowMargin: 15px;
 $itemMargin: 15px;
+$productMargin: 50px;
+$photoMargin: 30px;
 
 // Sizes
 $itemMinWidth: 300px;
+$productMinWidth: 300px;
+$photoMinWidth: 400px;
 
 // Settings
 $maxItemsPerRow: 6;
+$maxPhotosPerRow: 2;
+$maxProductsPerRow: 4;

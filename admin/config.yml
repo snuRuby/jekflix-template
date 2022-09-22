@@ -55,7 +55,7 @@ collections:
         required: false
       - label: "Description"
         name: "description"
-        hint: "This will be used across the pages and for search engines."
+        hint: "This will be used across the pages and for search engines. 제품이라면 왜 이 제품으로 골랐는지 설명을 적어주세요!"
         widget: "string"
       - label: "Featured Image"
         name: "image"
@@ -90,6 +90,10 @@ collections:
         name: "copyright"
         widget: "string"
         required: false
+      - label: "Image Copyright URL"
+        name: "copyright-url"
+        widget: "url"
+        required: false
       - label: "Paginate"
         name: "paginate"
         widget: "boolean"
@@ -119,8 +123,8 @@ collections:
           - label: "Description"
             name: "description"
             widget: "string"
-          - label: "Interior Thumnail"
-            name: "interior-thumnail"
+          - label: "Product Thumnail"
+            name: "product-thumnail"
             widget: "image"
             required: false
           - label: "Is Original or Contemporary or None"

@@ -2,4 +2,36 @@
   
   
   
+    {
+      "title"    : "예시 인테리어2",
+      "tags"     : "미드센추리모던, 모던, 주황색, and 그린",
+      "categories" : "interior",
+      "url"      : "/%EC%98%88%EC%8B%9C-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4/",
+      "date"     : "09/15/2022"
+    } ,
+  
+    {
+      "title"    : "예시 인테리어",
+      "tags"     : "미드센추리모던, 모던, 주황색, and 그린",
+      "categories" : "interior",
+      "url"      : "/%EC%98%88%EC%8B%9C-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4-copy/",
+      "date"     : "09/15/2022"
+    } ,
+  
+    {
+      "title"    : "예시 인테리어3",
+      "tags"     : "미드센추리모던, 모던, 주황색, and 그린",
+      "categories" : "interior",
+      "url"      : "/%EC%98%88%EC%8B%9C-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4-copy-2/",
+      "date"     : "09/15/2022"
+    } ,
+  
+    {
+      "title"    : "예시 블로그 (non interior) 이것은 정말 길고 긴 제목입니다.",
+      "tags"     : "인테리어, 매거진, and 매거진1",
+      "categories" : "interior",
+      "url"      : "/%EC%98%88%EC%8B%9C-%EB%B8%94%EB%A1%9C%EA%B7%B8-non-interior/",
+      "date"     : "09/15/2022"
+    } 
+  
 ]
