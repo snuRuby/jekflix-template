@@ -28,18 +28,37 @@
                 {% include pagination-post.html progressBar=true %}
 
                 {% include toc.html %}
-
+                
+                {%if page.isInterior == true %}
+                <div class="interior-products-list-in-post">
+                    {% assign products = post.products %}
+                    {% assign mainProducts = products | products.is_main == true %}
+                    {% for product in mainProducts %}
+                        <img src="{{product.product-thumnail}}"/>
+                            
+                    {% endfor %}
+                </div>
+                {% else %}
                 {{ content }}
+                {% endif %}
 
                 {% include pagination-post.html %}
             </article>
 
             {% if site.two_columns_layout %}
                 <aside class="see-also">
-                    <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
+                    {% if page.isInterior == true %}
+                        <h2>다른 감각적인 인테리어 사진들도 구경하세요!</h2>
+                    {% else %}
+                        <h2>{{ site.translations.text.see_also | default: "See also" }}</h2>
+                    {% endif %}
                     <ul>
                         {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" %}
-                        {% assign shuffled_array = next_posts | shuffle %}
+                        {% if page.isInterior == true %}
+                            {% assign shuffled_array = next_posts | where_exp:"post", "post.isInterior == true" | shuffle %}
+                        {% else %}
+                            {% assign shuffled_array = next_posts | shuffle %}
+                        {% endif %}
                         {% for post in shuffled_array limit:3 %}
                             <li>
                                 <a href="{{ post.url | prepend: site.baseurl }}">
