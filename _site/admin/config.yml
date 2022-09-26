@@ -139,7 +139,8 @@ collections:
             default: false
           - label: "Show Order"
             name: "show_order"
-            widget: "int"
+            widget: "number"
+            valueType: "int"
             default: 0
             hint: "시작은 1부터 해주세요! 0은 보여지는 순서에서 무시될 예정입니다."
           - label: "URL"

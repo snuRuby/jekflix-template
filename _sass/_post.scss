@@ -717,3 +717,40 @@
     }
   }
 }
+
+.interior-products-zone {
+  ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+
+  h3 {
+    margin-top: -70px;
+  }
+  
+  ul.sub-products-zone {
+    display:flex;
+    flex: 1 0 175px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  ul.main-products-zone {
+    justify-content: center;
+  }
+
+  hr {
+    width: 90%;
+  }
+
+  li {
+    width: 175px;
+  }
+
+  img {
+    margin: 10px;
+    width: 100%;
+    display: inline-block;
+  }
+}

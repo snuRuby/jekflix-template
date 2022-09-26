@@ -28,18 +28,58 @@
                 {% include pagination-post.html progressBar=true %}
 
                 {% include toc.html %}
+
+                {% for product in page.products %}
+                    {% assign temp = product.show_order %}
+                    {% if end_number and temp >= end_number %}
+                        {% assign end_number = product.show_order %}
+                    {% else %}
+                        {% assign end_number = temp %}
+                    {% endif %}
+                {% endfor %}
                 
-                {%if page.isInterior == true %}
-                <div class="interior-products-list-in-post">
-                    {% assign products = post.products %}
-                    {% assign mainProducts = products | products.is_main == true %}
-                    {% for product in mainProducts %}
-                        <img src="{{product.product-thumnail}}"/>
-                            
+                {% if page.isInterior == true %}
+                <div class="interior-products-zone">
+                    {% for i in (1..end_number) %}
+                    <ul class="main-products-zone">
+                        {% for product in page.products %}
+                            {% if product.is_main == true and product.show_order == i %}
+                            <li>
+                                <h2>사진 속 제품</h2>
+                                <a href="{{product.url}}" target="_blank">
+                                    <img src="{{product.product-thumnail}}"/>
+                                    <p>
+                                    {{product.name}}<br>
+                                    {{product.brand}}<br>
+                                    {{product.price}}
+                                    </p>
+                                </a>
+                            </li>
+                                {% endif %}
+                        {% endfor %}
+                        <hr>
+                        <h3>Similar Products</h3>
+                    </ul>
+                    <ul class="sub-products-zone">
+                        {% for product in page.products %}
+                        {% if product.is_main == false and product.show_order == i %}
+                            <li class="sub-products-zone">
+                                <a href="{{product.url}}" target="_blank">
+                                    <img src="{{product.product-thumnail}}"/>
+                                    <p>
+                                        {{product.name}}<br>
+                                        {{product.brand}}<br>
+                                        {{product.price}}
+                                    </p>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
                     {% endfor %}
                 </div>
                 {% else %}
-                {{ content }}
+                    {{ content }}
                 {% endif %}
 
                 {% include pagination-post.html %}

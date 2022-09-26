@@ -92,7 +92,7 @@ collections:
         required: false
       - label: "Image Copyright URL"
         name: "copyright-url"
-        widget: "url"
+        widget: "string"
         required: false
       - label: "Paginate"
         name: "paginate"
