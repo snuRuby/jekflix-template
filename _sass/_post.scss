@@ -69,9 +69,10 @@
     @include center(rem(800px));
     @include mainFont(400);
     font-size: rem(15px);
-    line-height: rem(20px);
-    padding: 0 rem(20px);
+    line-height: rem(23px);
+    padding: 0 rem(23px);
     margin: rem(20px) auto 0;
+    word-break: keep-all;
 
     @include media(">=sm") {
       font-size: rem(15px);
@@ -735,6 +736,8 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+  justify-content: center;
 
   ul.main-products-zone {
     justify-content: center;

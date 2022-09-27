@@ -21,9 +21,9 @@ layout: main
                 <div class="main-products">
                     <a class="main-products" href="{{product.url}}" target="_blank">
                         <img src="{{product.product-thumnail}}"/>
-                        <h5>{{product.description}}</h5>
-                        {{product.brand}}<br>
-                        {{product.price}}
+                        <p>{{product.name}}</p>
+                        <h5>{{product.brand}}</h5><br>
+                        <h4>{{product.price}} 원</h4>
                         {% if product.brand_type == 1 %}
                             <p class="contemporary">Contemporary Brand</p>
                         {% elsif product.brand_type == 2 %}

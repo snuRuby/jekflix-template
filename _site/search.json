@@ -2,4 +2,44 @@
   
   
   
+    {
+      "title"    : "색감이 조화로운 미드센추리모던 인테리어",
+      "tags"     : "미드센추리모던, 르네로제, and flos",
+      "categories" : "interior",
+      "url"      : "/%EC%83%89%EA%B0%90%EC%9D%B4-%EC%A1%B0%ED%99%94%EB%A1%9C%EC%9A%B4-%EB%AF%B8%EB%93%9C%EC%84%BC%EC%B6%94%EB%A6%AC%EB%AA%A8%EB%8D%98-%EC%9D%B8%ED%85%8C%EB%A6%AC%EC%96%B4/",
+      "date"     : "09/27/2022"
+    } ,
+  
+    {
+      "title"    : "리빙 문화에 대해 알 수 있는 서적 ",
+      "tags"     : "리빙, 서적, 매거진, 아파르타멘토, and 레코드매거진",
+      "categories" : "tips",
+      "url"      : "/%EB%A6%AC%EB%B9%99-%EB%AC%B8%ED%99%94%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%84%9C%EC%A0%81/",
+      "date"     : "09/27/2022"
+    } ,
+  
+    {
+      "title"    : "자연과 함께하는 이색 숙소 ",
+      "tags"     : "자연, 숙소, and 이색숙소",
+      "categories" : "travel",
+      "url"      : "/%EC%9E%90%EC%97%B0%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94-%EC%9D%B4%EC%83%89-%EC%88%99%EC%86%8C/",
+      "date"     : "09/27/2022"
+    } ,
+  
+    {
+      "title"    : "독특한 건축이 특징인 유명 미술관",
+      "tags"     : "미술관, 현대미술, 건축, 구겐하임, and 루이비통",
+      "categories" : "travel",
+      "url"      : "/%EB%8F%85%ED%8A%B9%ED%95%9C-%EA%B1%B4%EC%B6%95%EC%9D%B4-%ED%8A%B9%EC%A7%95%EC%9D%B8-%EC%9C%A0%EB%AA%85-%EB%AF%B8%EC%88%A0%EA%B4%80/",
+      "date"     : "09/27/2022"
+    } ,
+  
+    {
+      "title"    : "가장 유명한 미술관 ",
+      "tags"     : "현대미술, 미술관, 모마, 퐁피두센터, 테이트모던, and 비트라",
+      "categories" : "travel",
+      "url"      : "/%EA%B0%80%EC%9E%A5-%EC%9C%A0%EB%AA%85%ED%95%9C-%EB%AF%B8%EC%88%A0%EA%B4%80/",
+      "date"     : "09/26/2022"
+    } 
+  
 ]
