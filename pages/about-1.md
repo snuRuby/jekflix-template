@@ -6,7 +6,7 @@ title: About
 permalink: /about/
 description: 감각적인 리빙 소식을 빠르게 받아보세요!
 ---
-<img  src="https://opaque.s3.ap-northeast-2.amazonaws.com/CI/Opaque+but+Definite.png" alt="Opaque but Definite" height="60px" />
+<img  src="https://opaque.s3.ap-northeast-2.amazonaws.com/CI/Opaque+but+Definite.png" alt="Opaque but Definite" height="40px" />
 
 숨겨진 감각을 찾아보세요!
 
@@ -26,16 +26,10 @@ description: 감각적인 리빙 소식을 빠르게 받아보세요!
 어떤 기준으로 브랜드를 나누어서 보여주면 좋을까 오파크는 고민했어요. 
 
 > **오리지널 브랜드 : 클래식하거나 아이코닉한 디자인에 대한 오리지널리티를 가지고 있고 긴 역사를 가지고 있는 브랜드**
-
-
-
+>
 > **콘템포러리 브랜드 : 짧은 역사를 가졌지만 오리지널 디자인을 현대적으로 재해석한 제품과 브랜드** 
-
-
-
+>
 > **일반 브랜드 : 비슷한 무드로 가볍게 연출해볼 수 있는 브랜드**
-
-
 
 웹매거진은 감각적인 인테리어를 쉽고 재미있게 전달드리고 싶어서 같이 만들어서 보여드리고 있어요. 사실 감각적인 브랜드나 역사를 쉽게 찾아보고 알 수가 없잖아요?! \
 쉽게 접근할 수 있도록 일상 생활에서 흥미로운 인테리어 정보나, 브랜드 협업, 디자이너들의 감각, 감각적인 공간들을 같이 보여드리면서 유저들이 언제든 레퍼런스와 함께 즐길 수 있게끔 하는 콘텐츠를 쓰기 시작했어요.
